@@ -19,13 +19,13 @@ useradd carlos -c "Carlos Nascimento" -m -s /bin/bash -p $(openssl passwd -crypt
 useradd maria -c "Maria dos Santos" -m -s /bin/bash -p $(openssl passwd -crypt Senha1230) -G GRP_ADM
 useradd joao -c "Joao Nascimento Santos" -m -s /bin/bash -p $(openssl passwd -crypt Senha1230) -G GRP_ADM
 
-useradd debora -c "Debora Da Silva" -m -s /bin/bash -p $(openssl passwd -crypt Senha1230) -G GRP_ADM
-useradd sebastiana -c "Sebastiana Silva Santos" -m -s /bin/bash -p $(openssl passwd -crypt Senha1230) -G GRP_ADM
-useradd roberto -c "Roberto Da Silva" -m -s /bin/bash -p $(openssl passwd -crypt Senha1230) -G GRP_ADM
+useradd debora -c "Debora Da Silva" -m -s /bin/bash -p $(openssl passwd -crypt Senha1230) -G GRP_VEN
+useradd sebastiana -c "Sebastiana Silva Santos" -m -s /bin/bash -p $(openssl passwd -crypt Senha1230) -G GRP_VEN
+useradd roberto -c "Roberto Da Silva" -m -s /bin/bash -p $(openssl passwd -crypt Senha1230) -G GRP_VEN
 
-useradd josefina -c "Josefina Alcantara" -m -s /bin/bash -p $(openssl passwd -crypt Senha1230) -G GRP_ADM
-useradd amanda -c "Amanda Roberta Alcantara" -m -s /bin/bash -p $(openssl passwd -crypt Senha1230) -G GRP_ADM
-useradd rogerio -c "Rogério Alcantara" -m -s /bin/bash -p $(openssl passwd -crypt Senha1230) -G GRP_ADM
+useradd josefina -c "Josefina Alcantara" -m -s /bin/bash -p $(openssl passwd -crypt Senha1230) -G GRP_SEC
+useradd amanda -c "Amanda Roberta Alcantara" -m -s /bin/bash -p $(openssl passwd -crypt Senha1230) -G GRP_SEC
+useradd rogerio -c "Rogério Alcantara" -m -s /bin/bash -p $(openssl passwd -crypt Senha1230) -G GRP_SEC
 
 
 echo "Especificando permissões dos diretórios.."
